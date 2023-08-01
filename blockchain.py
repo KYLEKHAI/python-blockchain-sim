@@ -9,7 +9,7 @@ class KhaiCoinBlock:
         self.transaction_list = transaction_list
 
         '''Constructing data string'''
-        self.block_data = "->".join(transaction_list) + "->" + prev_block_hash
+        self.block_data = "--".join(transaction_list) + "--" + prev_block_hash
         self.block_hash = hashlib.sha256(self.block_data.encode()).hexdigest()
 
 '''Transactions in blockchain'''
