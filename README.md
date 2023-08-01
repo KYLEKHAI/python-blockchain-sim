@@ -1,6 +1,6 @@
 # python-crypto-blockchain-sim
 
-## The following files simulate the functionality of cryptocurrency and blockchain feautures
+### The following files simulate the functionality of cryptocurrency and blockchain feautures
 
 ## blockchain.py
 
