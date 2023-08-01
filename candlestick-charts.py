@@ -24,4 +24,4 @@ colors = mpf.make_marketcolors(up="#00ff00", down="#ff0000", wick="inherit", edg
 mpf_style = mpf.make_mpf_style(base_mpf_style="nightclouds", marketcolors=colors)
 
 #Plot the candlestick chart with the custom style
-mpf.plot(data, type="candle", style=mpf_style)
+mpf.plot(data, type="candle", style=mpf_style, volume = True)
